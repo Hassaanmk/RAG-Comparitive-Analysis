@@ -14,9 +14,9 @@ import env_loader  # This will load the .env file
 
 os.environ["USER_AGENT"] = "Corrective-RAG/0.1"
 
-os.environ["CO_API_KEY"] = "rJ4bDc2oYF2Qd8JZOuNgcrW6mKu5MySIKORMoFOZ"
+os.environ["CO_API_KEY"] = "x"
 # Set your API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "x"
 co = cohere.ClientV2()
 
 
