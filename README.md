@@ -12,19 +12,19 @@ The architectures were implemented using **LangChain**, an open-source framework
 
 The **Basic RAG** architecture follows the traditional method of combining a retriever (to fetch relevant documents) with a generative model. The retrieved documents are used to augment the model's input, which leads to more accurate and context-aware responses.
 
-- **Implementation Link**: [Basic RAG](https://github.com/facebookresearch/RAG)
+- **Implementation Link**: [Basic RAG](https://python.langchain.com/docs/concepts/rag/)
 
 ### 2. **Corrective RAG**
 
 The **Corrective RAG** model improves upon the basic RAG architecture by introducing a feedback loop to correct the information retrieved during the retrieval process. This method enhances the overall output quality by refining the retrieved documents before they are fed into the generative model.
 
-- **Implementation Link**: [Corrective RAG](https://github.com/facebookresearch/RAG)
+- **Implementation Link**: [Corrective RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_crag/)
 
 ### 3. **Graph RAG**
 
 The **Graph RAG** model uses the principles of graph databases to improve the retrieval process. It makes use of a **Neo4j Knowledge Graph** to store and retrieve data relationships. By leveraging the graph structure, it can more effectively find connections between various pieces of information and integrate them into the final response.
 
-- **Implementation Link**: [Neo4j](https://neo4j.com/)
+- **Implementation Link**: [Neo4j](https://neo4j.com/blog/developer/neo4j-graphrag-workflow-langchain-langgraph/)
 
 ## Architecture Workflow
 
